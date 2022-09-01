@@ -1,0 +1,43 @@
+
+main{
+     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .contenedor{
+        width: 100%;
+        display: flex;
+            justify-content: center;
+    }
+    #nbafotos{
+       width:35%;
+       display: flex;
+     
+    }
+    h2{
+background-color: forestgreen;
+    }
+    p{
+background-color: gold;
+    }
+    button{
+color: darkblue;
+width: 100%;
+justify-content: center;
+display: flex;
+&:hover{
+    color: red;
+}
+    }
+    .input{
+        color: darkmagenta;
+        &:focus{
+ color: red($color: #000000);
+        }
+    }
+    .prendas{
+        padding: 45px;
+         display: flex;
+         justify-content: center;
+        flex-direction: row;
+    }
+}
